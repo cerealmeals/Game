@@ -10,7 +10,7 @@ import java.util.Random;
 /**
  * The P_Grid class represents the game grid and manages grid-related functionalities.
  */
-public class P_Grid {
+public class Grid {
     private final RewardClient rewardClient; // Manages rewards in the grid.
     private char[][] grid; // The 2D grid representing the game map.
     private Random rn = new Random(); // Random number generator for grid setup.
